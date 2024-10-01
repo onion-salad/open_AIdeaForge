@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIdeaForge Extension</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-4">
+  <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">AIdeaForge</div>
+      <p class="mt-2 text-gray-500">Your AI-powered idea management tool</p>
+      <div id="notesList" class="mt-4"></div>
+      <textarea id="newNote" class="mt-4 w-full p-2 border rounded" placeholder="Add a new note..."></textarea>
+      <button id="addNote" class="mt-2 px-4 py-2 bg-indigo-500 text-white rounded hover:bg-indigo-600">Add Note</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
